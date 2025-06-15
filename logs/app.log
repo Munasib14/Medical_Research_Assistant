@@ -1,0 +1,20 @@
+[2025-06-15 18:16:11] [INFO] GroqLLMModel - Starting RetrievalGenerationService initialization...
+[2025-06-15 18:16:11] [INFO] GroqLLMModel - Loading embedding model: intfloat/e5-large-v2
+[2025-06-15 18:16:48] [INFO] GroqLLMModel - Embedding model loaded successfully.
+[2025-06-15 18:16:48] [INFO] GroqLLMModel - Connecting to FAISS DB at: C:/Users/Admin/Documents/medical-research-assistant/data/db_vector_store
+[2025-06-15 18:16:48] [INFO] GroqLLMModel - Connected to FAISS DB using index: faiss_index.index
+[2025-06-15 18:16:48] [INFO] GroqLLMModel - Initializing retriever with Top-K: 5
+[2025-06-15 18:16:48] [INFO] GroqLLMModel - Retriever initialized successfully.
+[2025-06-15 18:16:48] [INFO] GroqLLMModel - Loading Groq LLM and initializing QA chain...
+[2025-06-15 18:16:48] [INFO] GroqLLMModel - Initializing Groq LLM with model: llama-3.1-8b-instant
+[2025-06-15 18:16:49] [INFO] GroqLLMModel - Groq LLM initialized successfully.
+[2025-06-15 18:16:49] [INFO] GroqLLMModel - LangChain Retrieval QA chain initialized successfully.
+[2025-06-15 18:16:49] [INFO] GroqLLMModel - Groq LLM and QA chain initialized successfully.
+[2025-06-15 18:16:49] [INFO] GroqLLMModel - RetrievalService initialized successfully.
+[2025-06-15 18:17:05] [INFO] GroqLLMModel - GET http://127.0.0.1:8000/docs completed in 0.00s with status code 200
+[2025-06-15 18:17:06] [INFO] GroqLLMModel - GET http://127.0.0.1:8000/openapi.json completed in 0.02s with status code 200
+[2025-06-15 18:17:32] [INFO] GroqLLMModel - Processing query: elaborate the covid-19 research
+[2025-06-15 18:17:32] [INFO] GroqLLMModel - Processing query: elaborate the covid-19 research
+[2025-06-15 18:17:38] [INFO] GroqLLMModel - Query processed successfully.
+[2025-06-15 18:17:38] [INFO] GroqLLMModel - Query processed successfully. Answer: The COVID-19 research is a vast and ongoing field that involves multiple disciplines, including epid...
+[2025-06-15 18:17:38] [INFO] GroqLLMModel - POST http://127.0.0.1:8000/api/v1/ask-question completed in 5.61s with status code 200
